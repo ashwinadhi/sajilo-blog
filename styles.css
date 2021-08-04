@@ -1,0 +1,227 @@
+body{
+  background-color: #96BAFF;
+}
+.writing_1{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-family: 'Otomanopee One', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.design{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.bottom-container{
+  text-align: center;
+  background-color: #A7C4BC;
+  padding: 30px 30px 10px;
+}
+.copyright{
+  color: #f7f3e9;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+.footer-link{
+  font-size: 2em;
+  padding-left: 50px;
+}
+.dnd{
+  font-family: "Montserrat-bold";
+  width: 40%;
+  float: right;
+  padding-right: 10rem;
+  margin-top: 2rem;
+}
+
+.tab{
+  font-family: "Montserrat-bold";
+  width: 90%;
+  float: right;
+  font-size: 1.5rem;
+}
+.skill-row{
+  width: 100%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.already{
+  text-decoration: underline;
+}
+.navbar{
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+/* ----------------------------SignUp Css-------------------------- */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+html,
+body {
+  height: 100%;
+  font-family: "Ubuntu";
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin .form-floating .top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin .form-floating .middle {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-radius: 0;
+}
+
+.form-signin .form-floating .buttom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.link_password{
+  text-decoration: none;
+}
+.logoMargin{
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+.images_signup{
+  float: left;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  margin-top: 10rem;
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10%;
+}
+.h3_signup{
+  float: right;
+  padding-right: 3rem;
+  margin-top: 15rem;
+}
+.circle {
+  width: 30rem;
+  height: 15rem;
+  border-radius: 50%;
+  line-height: 2;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background: #865439;
+}
+/* -----------------------------login css ---------------------- */
+.h3_login{
+  float: right;
+  padding-right: 3rem;
+  margin-top: 5rem;
+}
+.images_login{
+  float: left;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10%;
+}
+
+/* **************************************submit-css************************************* */
+
+.h3_submit{
+  padding-left: 2rem;
+}
+
+
+.h3_submit_blog{
+  float: right;
+  margin-right: 20px;
+
+}
+
+.submit_circle{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 50%;
+    line-height: 2;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    background: #865439;
+  }
+
+.button_letsgo{
+  margin-top: 20rem;
+  margin-bottom: 50px;
+  margin-left: 100px;
+
+}
+/* *****************************************images_signup************************** */
+.images_submit{
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10%;
+  float: right;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+
+/* ********************textarea********************** */
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #716F81;
+}
+/* ******************************buttom_submit/discard****************************** */
+.buttom_submit{
+margin-bottom: 1rem;
+margin-top: 1rem;
+margin-right: 1rem;
+}
+
+.buttom_discard{
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+
+/* **************************buttom/logout/another_blog************************************** */
+.buttom_logout{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+.buttom_another_blog{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

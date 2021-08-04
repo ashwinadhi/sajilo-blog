@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+        <div class="container">
+          <div class="jumbotron centered">
+            <i class="fas fa-key fa-6x"></i>
+            <h1 class="display-3">Blog</h1>
+            <p class="secret-text">Don't keep your Thoughts on mind , share them wisely!</p>
+
+            <form action="/submit" method="POST">
+
+              <div class="form-group">
+                 <textarea class="form-control" id="exampleFormControlTextarea1" name="blog" placeholder="What's on your mind?" rows="6"></textarea>
+              </div>
+              <button type="submit" class="buttom_submit btn btn-primary">Submit</button>
+              <button type="submit" class="buttom_discard btn btn-outline-danger">Discard</button>
+            </form>
+
+
+          </div>
+</div>
+<%- include('partials/footer') %>
+
+<!-- <div class="">
+    <h3 class="h3_submit_blog submit_circle"><br>CREATE YOUR OWN BLOG <br>GIVE IT A GO <br> CLICK + SIGN IN BUTTOM</h3>
+  <h3 class="h3_submit">WRITING WHAT'S ON YOUR MIND <br> IS FANTASTIC.... WANNA TRY </h3>
+</div>
+
+  <div class="">
+    <button class="btn btn-success btn-lg button_letsgo" type="submit" name="letsgo">LET'S GO</button>
+      <img class="images_submit" src="images/blog_full.jpg" alt="Blog-photo">
+      </div> -->
